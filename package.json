@@ -1,0 +1,16 @@
+{
+  "name": "iletisim",
+  "version": "1.0.0",
+  "description": "Serverless P2P encrypted video call using WebRTC, a Node.js WebSocket signaling server and Cloudflare Tunnel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["webrtc", "p2p", "video-call", "websocket", "nodejs"],
+  "author": "Omer",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ws": "^8.23.0"
+  }
+}
